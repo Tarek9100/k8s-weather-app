@@ -19,10 +19,12 @@ spec:
             secretKeyRef:
               name: mysql-secret
               key: auth-password
+        - name: MYSQL_USER
+          value: "authuser"
         - name: MYSQL_HOST
-          value: "mysql"  # Set the MySQL Service name or hostname
+          value: "mysql"
         - name: MYSQL_PORT
-          value: "3306"  # MySQL port, default is 3306
+          value: "3306" 
         command: ["/bin/sh", "-c"]
         args:
         - |
