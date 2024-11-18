@@ -29,10 +29,12 @@ The project uses:
    git clone https://github.com/your-username/k8s-weather-app.git
    cd k8s-weather-app
 2. **Create a Kind Cluster with Ingress Use the provided cluster configuration:**
+   ```bash
    kind create cluster --config=kind-config.yaml
-3. **Apply Kubernetes Manifests Deploy services, deployments, and ingress:**
+4. **Apply Kubernetes Manifests Deploy services, deployments, and ingress:**
+   ```bash
    kubectl apply -f kubernetes/
-4. **Update /etc/hosts Add the following entry to your hosts file:**
+6. **Update /etc/hosts Add the following entry to your hosts file:**
    <your-cluster-ip> weatherapp.local
-5. **Access the Application:**
+7. **Access the Application:**
    Open http://weatherapp.local in your browser.
