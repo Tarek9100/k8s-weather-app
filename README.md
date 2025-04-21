@@ -26,7 +26,7 @@ The project uses:
 ### Steps to Deploy the Application
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/k8s-weather-app.git
+   git clone https://github.com/Tarek9100/k8s-weather-app.git
    cd k8s-weather-app
 2. **Create a Kind Cluster with Ingress Use the provided cluster configuration:**
    ```bash
